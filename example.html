@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Онлайн тест HTML/CSS</title>
+    <style>
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .answer {
+            margin-bottom: 10px;
+        }
+
+        .correct {
+            background-color: #a6f7bd;
+        }
+
+        .incorrect {
+            background-color: #ff8080;
+        }
+    </style>
+</head>
+<body>
+    <h1>Онлайн тест HTML/CSS</h1>
+
+    <form id="quiz" onsubmit="return false;">
+        <div class="question">
+            <p>1. Какой элемент используется для создания ссылки в HTML?</p>
+            <div class="answer">
+                <input type="radio" name="q1" value="a"> a) &lt;a&gt;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q1" value="b"> b) &lt;link&gt;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q1" value="c"> c) &lt;href&gt;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q1" value="d"> d) &lt;p&gt;
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. Как задать красный цвет тексту в CSS?</p>
+            <div class="answer">
+                <input type="radio" name="q2" value="a"> a) color: red;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q2" value="b"> b) text-color: red;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q2" value="c"> c) font-color: red;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q2" value="d"> d) red: text;
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. Какой элемент используется для создания заголовка первого уровня в HTML?</p>
+            <div class="answer">
+                <input type="radio" name="q3" value="a"> a) &lt;title&gt;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q3" value="b"> b) &lt;h1&gt;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q3" value="c"> c) &lt;header&gt;
+            </div>
+            <div class="answer">
+                <input type="radio" name="q3" value="d"> d) &lt;strong&gt;
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. Как задать фоновое изображение для элемента в CSS?</p>
+            <div class="answer">
+                <input type="radio" name="q4" value="a"> a) image: url("image.jpg");
+            </div>
+            <div class="answer">
+                <input type="radio" name="q4" value="b"> b) background-image: url("image.jpg");
+            </div>
+            <div class="answer">
+                <input type="radio" name="q4" value="c"> c) background-url:("image.jpg");
+            </div>
+            <div class="answer">
+                <input type="radio" name="q4" value="d"> d) img-src: url("image.jpg");
+            </div>
+        </div>
+
+        <div class="question">
+            <p>5. Какой селектор CSS выберет все элементы &lt;p&gt; с классом "text"?</p>
+            <div class="answer">
+                <input type="radio" name="q5" value="a"> a) p.text
